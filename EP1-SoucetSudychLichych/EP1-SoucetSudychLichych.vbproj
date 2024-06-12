@@ -3,7 +3,7 @@
     Sub Main()
         Dim pocetcisel As Object
         Console.Clear()
-        Console.Write("kolik, čisel chces ?")
+        Console.Write("kolik čisel chces ?")
         pocetcisel = Console.ReadLine
         If IsNumeric(pocetcisel) = False Then
             Console.ForegroundColor = ConsoleColor.DarkRed
